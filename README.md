@@ -1,22 +1,19 @@
 # HeadCount 2.0
 
-HeadCount 2.0 is a project designed to challenge your skills at manipulating data and creating small, reusable React components.  
+![headcount](https://user-images.githubusercontent.com/20631355/31922678-a37826a2-b833-11e7-995b-3fe37355877f.gif)
 
-You will start the project by importing files containing various educational stats from districts within Colorado by year, per district.  
 
-In the spirit of TDD we have created some unit tests for you to start off with. These tests will help you break out calculation logic into a `DistrictRepository` class. After you finish `iteration 1` you'll move on to creating the rest of the react application on your own, with the expectation that you will continue to test the application on your own.
+HeadCount 2.0 was a project designed to challenge my skills at manipulating data and creating small, reusable React components.  
+
 
 This application was built using the `create-react-app` boilerplate. This boilerplate provides a lot of build in content and dependencies for free. Take a few minutes to read through [the documentation](https://github.com/facebookincubator/create-react-app), and remember to refer back to these docs if you run into unexpected issues.  
 
-## Set Up
+## Contributors
 
-Fork this project
+Nick Teets
 
-Run `npm install` from the root directory
+John Michael Boudreaux
 
-Run `npm start` and visit localhost:3000 in your browser
-
-You can begin running your tests with `npm test`
 
 ## Project Goals
 
@@ -129,12 +126,11 @@ Example:
 
 **A maximum of two districts should be able to be selected.**  
 
-### Extensions
+### Extensions Reached
 
 #### More Data Files  
 * Right now we are only loading the `kindergartners_in_full_day_program.js` file. Create a header with buttons that dynamically load each of the different files provided in this repo.  
 * The UI should change to reflect the data provided by the file selected.  
-* The buttons should be modular React components.  
 
 #### Individual District Data Analysis
 * When a district is selected it should display the average of its data anywhere it is displayed.  
@@ -146,34 +142,4 @@ Example:
 - 2 - The application is in a usable state, but is missing 1 of the features outlined in the specification above.
 - 1 - The application is missing multiple features essential to having a complete application.
 
-## Code Quality
 
-- 4 - Developer demonstrates complete understanding of React with appropriately separated components and exceptionally well refactored code.
-- 3 - Developer appears comfortable in React but demonstrated gaps in knowledge of how the tools should be used and/or the app contains unrefactored code.
-- 2 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
-- 1 - Developer did not make any effort to use React effectively or refactor code.  
-
-## PropType Implementation
-
-- Pass - Proptype validation is implemented for any component receiving props.  
-- Fail - There are components missing proptype validation.  
-
-## CSS/Design
-
-- 4 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has minimal recommendations for design changes.
-- 3 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has multiple recommendations for design changes.
-- 2 - Developer has made intentional design decisions to create a user friendly application but Louisa would be mad.
-- 1 - Developer did minimal to no CSS for this project.
-
-## Testing
-
-- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested.
-- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing.
-- 2 - There are obvious gaps where functionality is not tested.
-- 1 - There was little to no attempt to test this application.
-
-## Surprise and Delight
-- 4 - Unicorn
-- 3 - Hot Fire
-- 2 - Sparkles
-- 1 - Magic
